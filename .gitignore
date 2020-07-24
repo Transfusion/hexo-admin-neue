@@ -1,0 +1,9 @@
+/node_modules
+
+# where the built server goes
+/dist
+
+# where the built frontend goes
+/www
+.DS_Store
+*.log

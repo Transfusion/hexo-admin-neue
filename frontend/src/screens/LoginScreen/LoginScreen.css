@@ -1,0 +1,15 @@
+.login-screen {
+    align-items: center;
+    justify-content: center;
+    /* border-color: red;
+    border-width: 2px;
+    border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+}
+
+.login-screen-input {
+    padding: 10px;
+}

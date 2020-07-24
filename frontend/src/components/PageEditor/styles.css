@@ -1,0 +1,22 @@
+.no-selected-page-text {
+  width: 100%;
+  color: grey;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-editor-toolbar {
+  display: flex;
+  height: var(--editor-toolbar-height);
+  /* max-width: 500px; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.page-editor-toolbar::-webkit-scrollbar {
+  display: none;
+}

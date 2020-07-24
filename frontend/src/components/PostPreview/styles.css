@@ -1,0 +1,10 @@
+.post-preview {
+}
+
+.post-preview-html {
+  border: 1px solid grey;
+  padding-top: 10px;
+  overflow: hidden;
+  padding: 2px;
+  /* background-color: grey; */
+}

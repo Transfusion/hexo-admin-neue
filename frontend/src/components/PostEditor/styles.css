@@ -1,0 +1,39 @@
+.no-selected-post-text {
+  width: 100%;
+  color: grey;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-editor-toolbar {
+  display: flex;
+  height: var(--editor-toolbar-height);
+  /* max-width: 500px; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.post-editor-toolbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* .react-markdown--slate-editor:not(.react-markdown--slate-editor--fullscreen) { */
+/* max-height: calc((100vh - var(--navbar-height)) - 60px) !important; */
+/* } */
+
+/* .react-markdown--slate-editor {
+  width: 100%;
+}
+
+.CodeMirror {
+  height: 100% !important;
+  width: 100%;
+}
+
+.react-codemirror2 {
+  width: 100%;
+} */

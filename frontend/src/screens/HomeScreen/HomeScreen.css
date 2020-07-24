@@ -1,0 +1,18 @@
+/* TODO: avoid having to subtract by the height of the header by using pure flexbox?
+styles below are effectively useless */
+.home-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-screen-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+
+NavBar.navbar-collapse.collapse {
+  height: var(--navbar-height);
+}

@@ -1,0 +1,27 @@
+.no-pages-text {
+  text-align: center;
+  color: grey;
+}
+
+.pages-list-toolbar {
+  position: absolute;
+  display: flex;
+  height: var(--post-page-toolbar-height);
+  background-color: white;
+  width: 100%; /* expand to fill the entire left pane */
+  align-items: center;
+}
+
+.pages-list-toolbar-accordion {
+  position: absolute;
+  width: 100%;
+  margin-top: var(--post-page-toolbar-height);
+  background-color: white;
+}
+
+.pages-list-margin-wrapper {
+  /* margin-top: var(--post-page-toolbar-height); */
+  max-height: calc(
+    100vh - var(--navbar-height) - var(--post-page-toolbar-height)
+  );
+}
