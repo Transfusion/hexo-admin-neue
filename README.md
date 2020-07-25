@@ -4,7 +4,7 @@
 
 A fully responsive, mobile-friendly admin interface for Hexo.
 
-![](https://i.imgur.com/AbrzFBU.gif)
+![Demo in Firefox for Android](../product-demos/demo-mobile.gif?raw=true)
 
 Skip to [Running in production](#running-in-production) if you've just completed `npm install hexo-admin-neue -g` !
 
