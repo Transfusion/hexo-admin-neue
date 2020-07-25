@@ -8,6 +8,13 @@ A fully responsive, mobile-friendly admin interface for Hexo.
 
 Skip to [Running in production](#running-in-production) if you've just completed `npm install hexo-admin-neue -g` !
 
+## Windows Users
+
+A few quirks I noticed while briefly testing on Windows 10 1903:
+- Works with node.js 12.18.3.
+- Calling `npm ci` in the `frontend` folder will fail because [fsevents < 2 is a transitive dependency](https://github.com/fsevents/fsevents/issues/301), of `create-react-app`.
+- `--hexo-dir` cannot end in a backslash in [development mode](#development), possibly because of some interaction with the `--` used to pass arguments to `npm start`.
+- Setting environment variables can be done like this: `> $env:PUBLIC_URL='/admin_neue'; ham-build-frontend.cmd`. Remember to unset it after.
 ## Usage
 ```
 $ hexo-admin-neue -h

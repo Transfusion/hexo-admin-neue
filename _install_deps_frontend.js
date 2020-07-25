@@ -4,8 +4,9 @@ const os = require('os')
 const { spawn } = require("child_process");
 
 const npmCmd = os.platform().startsWith('win') ? 'npm.cmd' : 'npm'
+const installCmd = os.platform().startsWith('win') ? 'i' : 'ci'
 
-spawn(npmCmd, ["ci"], {
+spawn(npmCmd, [installCmd], {
   stdio: 'inherit',
   shell: true, // doesn't matter if shell: true is here or not.
   cwd: './frontend',
